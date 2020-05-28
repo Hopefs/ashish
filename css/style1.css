@@ -1,0 +1,24 @@
+header {
+    background: black;
+}
+.container {
+    background: red;
+}
+.row {
+    background: green;
+}
+[class^=col-] {
+    background: blue;
+}
+[class^=col-]:nth-child(1){
+    background: purple;
+}
+[class^=col-]:nth-child(2){
+    background: orange;
+}
+[class^=col-]:nth-child(3){
+    background: pink;
+}
+[class^=col-]:nth-child(4){
+    background: greenyellow;
+}

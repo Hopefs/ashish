@@ -1,0 +1,355 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    text-decoration: none !important;
+    font-family: "Poppins", sans-serif;
+}
+.carousel {
+    width: 100%;
+    position: relative;
+}
+.header_shadow {
+    width:100%;
+    margin: 0px auto;
+    background: rgba(27, 56, 81, 0.4);
+    position: fixed;
+    z-index: 10;
+    top:0;
+}
+.header_main {
+    width: 90%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.carousel-caption .carousel-item {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.carousel-caption {
+    position: absolute !important;
+    z-index: 0 !important;
+    left: 5% !important;
+    top: 35%    !important;
+    right: 0%   !important;
+    text-align: left   !important;
+}
+.carousel-caption>h5 {
+    margin: 0px;
+    padding: 0px;
+    font-size: 10vw;
+    color: rgba(255, 165, 0, 1);
+    /* padding-top: 40%; */
+}
+.carousel-caption>p {
+    margin: 0px;
+    padding: 0px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(255, 165, 0, 1);
+    color: transparent;
+    /* margin-left: 5%; */
+    font-size: 10vw;
+}
+.carousel-caption>a>span {
+    width: 50px;
+    height: 1.5px;
+    background: #ffa500;
+    display: inline-block;
+    margin: 0px 0px;
+}
+.menu_bar {
+    display: none;
+}
+.btn {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 0px;
+}
+.logo {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.btn img {
+    width: 40px;
+}
+  
+.hamburger a img:hover {
+opacity: 0.7;
+}
+
+.logo img {
+width: 145px;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: none !important;
+    background-color: transparent !important;
+    border: none  !important;
+}
+button.btn.btn-primary.dropdown-toggle {
+    padding: 0px;
+    border: 0px;
+    text-decoration: none;
+}
+.btn-primary {
+    color: none !important;
+    background-color: transparent !important;
+    border: none !important;
+}
+
+.dropdown-toggle::after {
+    border: none;
+    margin-left: 0px;
+    vertical-align: 0px;
+    content: none;
+}
+
+
+
+
+/* FROM HERE WE ARE GOING TO START STYLE CODE FOR THE CONTENT SECTION OF OUR TRAINING */
+
+
+
+.ourtraining_heading {
+    width: 90%;
+    margin: 0px auto;
+    padding: 0px;
+}
+.ourtraining_heading>h1 {
+    margin-top: 50px;
+    font-size: 10vw;
+    color: #ffa500;
+    font-weight: 900;
+}
+.ourtraining_heading>h1>span {
+    color: #4bdddd;
+}
+.ourtraining_image {
+    width: 90%;
+    margin-top: 40px;
+    /* border: 2px solid greenyellow; */
+}
+.ourtraining_quote {
+    width: 90%;
+    margin: 0px auto;
+    padding: 0px;
+}
+.ourtraining_quote>h3 {
+    margin-top: 40px;
+    font-size: 17px;
+    padding-bottom: 20px;
+    line-height: 37px;
+    font-weight: 500;
+}
+.ourtraining_para {
+    width: 90%;
+    margin: 0px auto;
+    padding: 0px;
+}
+.ourtraining_para>p {
+    font-family: auto;
+    font-size: 14px;
+    line-height: 32px;
+    font-weight: bold;
+}
+.ourtraining_para>a {
+    width: 50px;
+    height: 1.5px;
+    background: #ffa500;
+    display: inline-block;
+    margin: 5px 0px;
+}
+
+
+
+/* FROM HERE WE ARE GOING TO START STYLE CODE FOR THE CONTENT SECTION OF OUR COURSES*/
+
+
+.ourcourses {
+    width: 100%;
+    margin: 0px auto;
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: rgba(27, 56, 81, 0.9);
+}
+.ourcourses_heading {
+    width: 90%;
+    margin: 0px auto;
+    padding: 0px;
+}
+.ourcourses_heading>h1>span {
+    width: 50px;
+    height: 1.5px;
+    background: #ffa500;
+    color: #4bdddd;
+    display: inline-block;
+    margin: 5px 10px;
+}
+.ourcourses_heading>h1  {
+    font-weight: 800;
+    color: #ffa500;
+}
+.ourcourses_heading>p {
+    padding-top: 40px;
+    font-size: 14px;
+    color: #4bdddd;
+}
+.ourcourses_plan {
+    width: 90%;
+    margin: 0px;
+    padding: 0px; 
+}
+.plan_gold {
+    margin: 0px;
+    margin-left: 5%;
+    margin-top: 50px;
+}
+.plan_gold>small {
+    color: #ffa500;
+}
+.plan_gold>span {
+    width: 50px;
+    height: 1.5px;
+    background: #ffa500;
+    display: inline-block;
+    margin: 5px 15px;
+}
+.plan_gold>h1 {
+    color: #4bdddd;
+    font-size: 24px;
+    font-weight: bold;
+}
+.plan_gold>p {
+    color: #ffa500;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    /* font-weight: bold; */
+}
+.plan_gold>ul>li {
+    margin-left: 5%;
+    color: #ffa500;
+    font-size: 17px;
+    margin-top: 5px;
+    list-style-type: disc !important;
+    /* font-weight: bold; */
+}
+
+
+/* FROM HERE WE ARE GOING TO START STYLE CODE FOR THE CONTENT SECTION OF OUR PACKAGES*/
+
+
+.ourpackages {
+    width: 100%;
+    margin: 0px auto;
+    margin-top: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /* background: rgba(27, 56, 81, 0.9); */
+}
+.content_ourpackages {
+    width: 90%;
+    margin: 0px auto;
+    padding: 0px;
+}
+.content_ourpackages>small {
+    font-size: 14px;
+}
+.content_ourpackages>h2 {
+    /* font-size: 24px; */
+    font-weight: 800;
+}
+
+.ourpackages_plan {
+    /* box-align: center !important; */
+    background: #ffffff;
+    box-shadow: 2px 5px 20px #c0c0c0;
+    margin-top: 70px;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.plan_img {
+    text-align: center;
+}
+.plan_img img {
+    width: 300px;
+    
+}
+.para_part1 {
+    border-bottom: 2px solid #c0c0c0;   
+}
+.para_part2 {
+    border-bottom: 2px solid #c0c0c0;   
+}
+.part4 {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.part4>li>a {
+    padding: 8px;
+    font-size: 18px;
+    border: 1px solid #4bdddd;
+    color: #ffffff;
+    background: #4bdddd;
+}
+.part4>li {
+    font-size: 19px;
+    
+}
+.part4>li>span {
+    text-decoration: line-through !important;
+    font-size: 13px !important;
+    color: #ffa500;
+}
+
+
+/* FROM HERE WE ARE GOING TO START STYLE CODE FOR THE CONTENT SECTION OF OUR PACKAGES*/
+
+
+
+.startlearning_content {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: #4bdddd;
+}
+.startlearning_heading {
+    margin-left: 5%;
+    margin-right: 5%;
+    color: #ffa500;
+}
+.startlearning_heading>small {
+    font-size: 14px;
+}
+.startlearning_heading>h2 {
+    font-size: 36px;
+    font-weight: 800;
+}
+.startlearning_heading>p {
+    font-size: 18px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    line-height: 28px;
+}
+.startlearning_heading>a {
+    text-decoration: none;
+    color: #ffa500;
+    font-size: 16px;
+    /* padding-top: 30px; */
+
+}
+.startlearning_heading>a>span {
+    width: 50px;
+    height: 1.5px;
+    background: #ffa500;
+    display: inline-block;
+    margin: 5px 0px;
+    margin-right: 10px;
+}
