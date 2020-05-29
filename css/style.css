@@ -5,6 +5,10 @@
     text-decoration: none !important;
     font-family: "Poppins", sans-serif;
 }
+body {
+    margin: 0px;
+    padding: 0px;
+}
 .carousel {
     width: 100%;
     position: relative;
@@ -311,7 +315,7 @@ button.btn.btn-primary.dropdown-toggle {
 }
 
 
-/* FROM HERE WE ARE GOING TO START STYLE CODE FOR THE CONTENT SECTION OF OUR PACKAGES*/
+/* FROM HERE WE ARE GOING TO START STYLE CODE FOR THE CONTENT SECTION OF START LEARNING WITH US*/
 
 
 
@@ -323,7 +327,7 @@ button.btn.btn-primary.dropdown-toggle {
 .startlearning_heading {
     margin-left: 5%;
     margin-right: 5%;
-    color: #ffa500;
+    color: #ffffff;
 }
 .startlearning_heading>small {
     font-size: 14px;
@@ -340,7 +344,7 @@ button.btn.btn-primary.dropdown-toggle {
 }
 .startlearning_heading>a {
     text-decoration: none;
-    color: #ffa500;
+    color: #ffffff;
     font-size: 16px;
     /* padding-top: 30px; */
 
@@ -348,8 +352,139 @@ button.btn.btn-primary.dropdown-toggle {
 .startlearning_heading>a>span {
     width: 50px;
     height: 1.5px;
-    background: #ffa500;
+    background: #ffffff;
     display: inline-block;
     margin: 5px 0px;
     margin-right: 10px;
+}
+
+
+
+/* FROM HERE WE ARE GOING TO START STYLE CODE FOR THE CONTENT SECTION OF DEMAT ACCOUNT OPENING*/
+
+
+.demat {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background: #c0c0c0;
+}
+.demat_heading {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.demat_heading>small {
+    font-size: 14px;
+    margin-right: 5%;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.demat_heading>h2>span {
+    margin-right: 5%;
+    margin-top: 20px;
+    font-size: 32px;
+    color: #ffa500 !important;
+    font-weight: 800;
+}
+.demat_heading>h2 {
+    margin-right: 5%;
+    margin-top: 20px;
+    font-size: 32px;
+    color: #4ddddd;
+    font-weight: 800;
+}
+.acc_1 {
+    background: #ffffff;
+    margin-top: 40px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.acc_1>h3>img {
+    width: 150px;
+}
+.acc_1>h3 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.acc_1>p {
+    font-size: 16px;
+    font-weight: bold;
+}
+.acc_1>a>span {
+    width: 50px;
+    height: 1.5px;
+    background: #ffa500;
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+.acc_1>a {
+    font-size: 14px;
+    text-decoration: none !important;
+    /* font-weight: bold; */
+    color: #ffa500;
+}
+
+
+
+
+/* FROM HERE WE ARE GOING TO START STYLE CODE FOR THE CONTENT SECTION OF DEMAT ACCOUNT OPENING*/
+
+
+
+
+
+
+.footer {
+    margin: 0px;
+    padding: 0px;
+    background: rgba(27, 56, 81, 1)
+}
+.footer_content {
+    margin-right: 5%;
+    margin-left: 5%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.footer_content>h3>img {
+    width: 250px;
+    margin-bottom: 30px;
+}
+.footer_address>ul>li>a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: #ffa500;
+}
+.footer_address>ul>li {
+    margin-top: 20px;
+}
+.connect_with_us {
+    margin-top: 60px;
+    font-size: 26px;
+    font-weight: 500;
+    color: #4bdddd;
+}
+.socialmedia_links {
+    display: flex;
+    margin-top: 20px;
+    /* justify-content: space-between; */
+}
+.socialmedia_links>li>a {
+    font-size: 14px;
+    margin-right: 30px;
+    color: #ffa500;
+    text-decoration: none;
+}
+.copyright {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 40px;
+    color: #4bdddd;
 }
