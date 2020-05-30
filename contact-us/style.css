@@ -1,0 +1,309 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    text-decoration: none !important;
+    font-family: "Poppins", sans-serif;
+}
+.carousel {
+    width: 100%;
+    position: relative;
+}
+.header_shadow {
+    width:100%;
+    margin: 0px auto;
+    background: rgba(27, 56, 81, 0.6);
+    position: fixed;
+    z-index: 10;
+    top:0;
+}
+.header_main {
+    width: 90%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.carousel-caption {
+    position: absolute !important;
+    z-index: 0 !important;
+    left: 5% !important;
+    top: 30%    !important;
+    right: 5%   !important;
+    text-align: left   !important;
+}
+.carousel-caption>h5 {
+    margin: 0px;
+    padding: 0px;
+    font-size: 12vw;
+    color: rgba(255, 165, 0, 1);
+    /* padding-top: 40%; */
+}
+.carousel-caption>p {
+    margin: 0px;
+    padding: 0px;
+    color: #4bdddd;
+    margin-top: 5%;
+    font-size: 3.5vw;
+}
+.menu_bar {
+    display: none;
+}
+.btn {
+    margin: 20px 0px;
+    padding: 0px;
+}
+.logo {
+    margin: 20px 0px;
+}
+.btn img {
+    width: 35px;
+}
+  
+.hamburger a img:hover {
+opacity: 0.7;
+}
+
+.logo img {
+width: 140px;
+}
+
+
+/* DROPDOWN OR HAMBURGER BUTTON STYLE IS HERE ALL START FROM HERE PLEASE MAKE CHANGES FROM HERE ONLY DON'T
+GO ANYWHERE ELSE FOR MAKING CHANGES*/
+
+
+button.btn.btn-primary.dropdown-toggle {
+    padding: 0px;
+    border: 0px;
+    text-decoration: none !important;
+}
+.btn-primary {
+    color: #ffffff;
+    background-color: transparent !important;
+    border: none !important;
+    text-decoration: none !important;
+
+}
+.dropdown-toggle::after {
+    border: none;
+    margin-left: 0px;
+    vertical-align: 0px;
+    content: none;
+}
+.dropdown-menu {
+    background: rgb(27, 56, 81) !important;
+    padding: 20px 10px !important;
+    transform: translate3d(-140px, 0px, 0px) !important;
+}
+.dropdown-menu>li>a {
+    text-align: center;
+    padding: 20px 20px !important;
+    color: #ffa500 !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+}
+.dropdown-menu>li>a:hover {
+    background: rgb(27, 56, 81) !important;
+    color: #4bdddd !important;
+    border-bottom: 2px solid #ffa500 !important;
+    margin: 0px 20px !important;
+    font-size: 18px !important;
+    padding: 10px 10px !important;
+}
+
+
+
+
+
+/* FROM HERE WE ARE GOING TO WRITE CSS FOR ABOUT US SECTION WHO WE ARE */
+
+
+
+
+.contactus {
+    width: 90%;
+    margin: 50px auto;
+    padding: 0px;
+}
+
+.contactus_heading>small {
+    font-size: 14px;
+}
+.contactus_heading>h2 {
+    font-size: 36px;
+    margin-top: 30px;
+    font-weight: 700;
+}
+.address>li>h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+.address>li>a {
+    font-size: 17px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+
+}
+.address>li>p {
+    font-size: 17px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+
+}
+.map_form>li>iframe{
+    width: 90%;
+    margin: 50px 5%;
+    padding: 0px;
+}
+.map_form>li>h2 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+
+
+/* form style */
+
+
+
+input[type=text] {
+    width: 95%;
+    margin: 0px auto;
+    /* margin-left: 2.5%; */
+    padding: 12px;
+    border: 1px solid #f5f5f5;
+    background-color: #f5f5f5;
+    box-sizing: border-box;
+    font-size: 15px;
+    margin-top: 10px;
+    resize: vertical;
+}
+input[type=number] {
+    width: 95%;
+    margin: 0px auto;
+    /* margin-left: 2.5%; */
+    padding: 12px;
+    border: 1px solid #f5f5f5;
+    background-color: #f5f5f5;
+    box-sizing: border-box;
+    font-size: 15px;
+    margin-top: 10px;
+    resize: vertical;
+}
+input[type=email] {
+    width: 95%;
+    margin: 0px auto;
+    /* margin-left: 2.5%; */
+    padding: 12px;
+    border: 1px solid #f5f5f5;
+    background-color: #f5f5f5;
+    box-sizing: border-box;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    resize: vertical;
+}
+textarea {
+    width: 95%;
+    margin: 0px auto;
+    /* margin-left: 2.5%; */
+    padding: 12px;
+    height: 180px;
+    border: 1px solid #f5f5f5 !important;
+    background-color: #f5f5f5;
+    box-sizing: border-box;
+    font-size: 15px;
+    resize: vertical;
+}
+
+input[type=SUBMIT] {
+    width: 50%;
+    box-align: center;
+    padding: 14px;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    border: 1px solid #00aeef;
+    background-color: #00aeef;
+    box-sizing: border-box;
+    font-size: 18px;
+    margin-top: 10px;
+    /* margin-left: 2.5%; */
+    margin-bottom: 20px;
+    resize: vertical;
+    cursor: pointer;
+}
+.box_last {                                     /*THIS IS FOR MAKING SUBMIT BUTTON AT CENTER*/
+    text-align: center;
+}
+
+
+
+
+
+
+/* FROM HERE WE ARE GOING TO WRITE CSS FOR ABOUT US SECTION HOW? */
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+    margin: 0px;
+    padding: 0px;
+    background: rgba(27, 56, 81, 1)
+}
+.footer_content {
+    margin-right: 5%;
+    margin-left: 5%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.footer_content>h3>img {
+    width: 250px;
+    margin-bottom: 30px;
+}
+.footer_address>ul>li>a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: #ffa500;
+}
+.footer_address>ul>li {
+    margin-top: 20px;
+}
+.connect_with_us {
+    margin-top: 60px;
+    font-size: 26px;
+    font-weight: 500;
+    color: #4bdddd;
+}
+.socialmedia_links {
+    display: flex;
+    margin-top: 20px;
+    /* justify-content: space-between; */
+}
+.socialmedia_links>li>a {
+    font-size: 14px;
+    margin-right: 30px;
+    color: #ffa500;
+    text-decoration: none;
+}
+.copyright {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 40px;
+    color: #4bdddd;
+}
