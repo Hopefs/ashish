@@ -16,7 +16,7 @@ body {
 .header_shadow {
     width:100%;
     margin: 0px auto;
-    background: rgba(27, 56, 81, 0.4);
+    background: rgba(27, 56, 81, 0.6);
     position: fixed;
     z-index: 10;
     top:0;
@@ -67,16 +67,14 @@ body {
     display: none;
 }
 .btn {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin: 20px 0px;
     padding: 0px;
 }
 .logo {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin:20px 0px;
 }
 .btn img {
-    width: 40px;
+    width: 35px;
 }
   
 .hamburger a img:hover {
@@ -84,30 +82,59 @@ opacity: 0.7;
 }
 
 .logo img {
-width: 145px;
+width: 140px;
 }
 
-.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+/* .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
     color: none !important;
     background-color: transparent !important;
     border: none  !important;
-}
+} */
+
+
+
+
+/* DROPDOWN OR HAMBURGER BUTTON STYLE IS HERE ALL START FROM HERE PLEASE MAKE CHANGES FROM HERE ONLY DON'T
+GO ANYWHERE ELSE FOR MAKING CHANGES*/
+
+
 button.btn.btn-primary.dropdown-toggle {
     padding: 0px;
     border: 0px;
-    text-decoration: none;
+    text-decoration: none !important;
 }
 .btn-primary {
-    color: none !important;
+    color: #ffffff;
     background-color: transparent !important;
     border: none !important;
-}
+    text-decoration: none !important;
 
+}
 .dropdown-toggle::after {
     border: none;
     margin-left: 0px;
     vertical-align: 0px;
     content: none;
+}
+.dropdown-menu {
+    background: rgb(27, 56, 81) !important;
+    padding: 20px 10px !important;
+    transform: translate3d(-140px, 70px, 0px) !important;
+}
+.dropdown-menu>li>a {
+    text-align: center;
+    padding: 20px 20px !important;
+    color: #ffa500 !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+}
+.dropdown-menu>li>a:hover {
+    background: rgb(27, 56, 81) !important;
+    color: #4bdddd !important;
+    border-bottom: 2px solid #ffa500 !important;
+    margin: 0px 20px !important;
+    font-size: 18px !important;
+    padding: 10px 10px !important;
 }
 
 
@@ -300,7 +327,7 @@ button.btn.btn-primary.dropdown-toggle {
 .part4>li>a {
     padding: 8px;
     font-size: 18px;
-    border: 1px solid #4bdddd;
+    border: 1px solid;
     color: #ffffff;
     background: #4bdddd;
 }
