@@ -56,12 +56,16 @@ body {
     /* margin-left: 5%; */
     font-size: 10vw;
 }
+
 .carousel-caption>a>span {
     width: 50px;
     height: 1.5px;
     background: #ffa500;
     display: inline-block;
     margin: 0px 0px;
+}
+.carousel-caption>a:hover {
+    margin-left: 20px !important;
 }
 .menu_bar {
     display: none;
@@ -117,9 +121,10 @@ button.btn.btn-primary.dropdown-toggle {
     content: none;
 }
 .dropdown-menu {
+    margin: 0px !important;
     background: rgb(27, 56, 81) !important;
     padding: 20px 10px !important;
-    transform: translate3d(-140px, 70px, 0px) !important;
+    transform: translate3d(-130px, 60px, 0px) !important;
 }
 .dropdown-menu>li>a {
     text-align: center;
@@ -291,7 +296,7 @@ button.btn.btn-primary.dropdown-toggle {
     font-size: 14px;
 }
 .content_ourpackages>h2 {
-    /* font-size: 24px; */
+    font-size: 34px;
     font-weight: 800;
 }
 
@@ -313,11 +318,45 @@ button.btn.btn-primary.dropdown-toggle {
     width: 300px;
     
 }
-.para_part1 {
-    border-bottom: 2px solid #c0c0c0;   
+.para_part1, .para_part2 {
+    margin: 10px 0px;
+    /* padding: 10px 0px; */
+    border-bottom: 2px solid #a39696;   
 }
-.para_part2 {
-    border-bottom: 2px solid #c0c0c0;   
+.para_part1>h2 {
+    font-weight: 600;
+    margin-top: 15px;
+    font-size: 28px;
+}
+.para_part1>h4 {
+    margin-top: 15px;
+    font-weight: 300;
+    font-size: 18px;
+}
+.para_part1>small {
+    margin-top: 10px;
+    font-size: 14px;
+    opacity: 0.5;
+}
+.para_part2>h4, .para_part3>h4{
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 18px;
+}
+.para_part2>ul>li {
+    margin-top: 8px;
+    font-size: 16px;
+    opacity: 0.5;
+}
+.validity>li {
+    font-size: 16px;
+    margin-top: 8px;
+    opacity: 0.5;
+}
+.para_part3>p {
+    font-size: 16px;
+    margin-top: 8px;
+    font-weight: 400;
 }
 .part4 {
     margin-top: 30px;
@@ -325,14 +364,19 @@ button.btn.btn-primary.dropdown-toggle {
     justify-content: space-between;
 }
 .part4>li>a {
-    padding: 8px;
-    font-size: 18px;
+    padding: 10px;
+    font-size: 19px;
     border: 1px solid;
     color: #ffffff;
     background: #4bdddd;
 }
+.part4>li>a:hover {
+    padding: 13px;
+    background: #5ceeee;
+}
 .part4>li {
-    font-size: 19px;
+    font-size: 22px;
+    color: firebrick;
     
 }
 .part4>li>span {
@@ -383,6 +427,11 @@ button.btn.btn-primary.dropdown-toggle {
     display: inline-block;
     margin: 5px 0px;
     margin-right: 10px;
+}
+.startlearning_heading>a:hover {
+    color: #ffa500;
+    font-size: 20px;
+    margin-left: 5%;
 }
 
 
@@ -457,7 +506,11 @@ button.btn.btn-primary.dropdown-toggle {
     /* font-weight: bold; */
     color: #ffa500;
 }
-
+.acc_1>a:hover {
+    font-size: 20px;
+    margin-left: 5%;
+    color: #ffa500;
+}
 
 
 

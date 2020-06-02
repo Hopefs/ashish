@@ -1,0 +1,109 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    text-decoration: none !important;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.error {
+    color: #ff0000;
+}
+
+/* form style */
+
+.form_heading {
+    width: 95%;
+    margin: 0px auto;
+    padding: 0px;
+    font-size: 36px;
+    font-weight: 800;
+    margin-top: 70px;
+}
+
+
+.head {
+    width: 90%;
+    margin: 0px auto;
+    padding: 0px;
+}
+
+.box {
+    width: 95%;
+    margin: 0px auto;
+    /* margin-left: 2.5%; */
+    padding: 12px;
+    border-radius: 25px;
+    border: 1px solid #f5f5f5;
+    background-color: #f5f5f5;
+    box-sizing: border-box;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    resize: vertical;
+}
+input[type=text] {
+    width: 95%;
+    margin: 0px;
+    padding: 12px 0px;
+    border: none;
+    background-color: #f5f5f5;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+select {
+    width: 95%;
+    margin: 0px;
+    padding: 12px 0px;
+    border: none;
+    background-color: #f5f5f5;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+input[type=phone] {
+    width: 95%;
+    margin: 0px;
+    padding: 12px 0px;
+    border: none;
+    background-color: #f5f5f5;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+input[type=email] {
+    width: 95%;
+    margin: 0px;
+    padding: 12px 0px;
+    border: none;
+    background-color: #f5f5f5;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+textarea {
+    width: 95%;
+    margin: 0px;
+    padding: 12px 0px;
+    border: none;
+    background-color: #f5f5f5;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+input[type=submit] {
+    width: 95%;
+    margin: 0px auto;
+    margin-left: 2.5%;
+    padding: 20px 0px;
+    text-align: center;
+    border: none;
+    color: #ffffff;
+    border-radius: 25px;
+    background-color: #333333;
+    box-sizing: border-box;
+    font-size: 18px;
+    margin-bottom: 70px;
+}
+input[type=submit]:hover {
+    background: #4bdddd;
+    font-size: 24px;
+}
