@@ -14,13 +14,14 @@ body {
     position: relative;
 }
 .header_shadow {
-    width:100%;
+    width: 100%;
     margin: 0px auto;
     background: rgba(27, 56, 81, 0.6);
     position: fixed;
     z-index: 10;
     top:0;
 }
+
 .header_main {
     width: 90%;
     margin: 0px auto;
@@ -29,7 +30,7 @@ body {
 }
 .carousel-caption .carousel-item {
     width: 100%;
-    margin: 0px;
+    margin: 0px auto;
     padding: 0px;
 }
 .carousel-caption {
@@ -43,7 +44,7 @@ body {
 .carousel-caption>h5 {
     margin: 0px;
     padding: 0px;
-    font-size: 10vw;
+    font-size: 40px;
     color: rgba(255, 165, 0, 1);
     /* padding-top: 40%; */
 }
@@ -54,9 +55,13 @@ body {
     -webkit-text-stroke-color: rgba(255, 165, 0, 1);
     color: transparent;
     /* margin-left: 5%; */
-    font-size: 10vw;
+    font-size: 40px;
 }
-
+.carousel-caption>a {
+    font-size: 14px;
+    color: #ffa500;
+    text-decoration: none;
+}
 .carousel-caption>a>span {
     width: 50px;
     height: 1.5px;
@@ -66,8 +71,9 @@ body {
 }
 .carousel-caption>a:hover {
     margin-left: 20px !important;
+    color: #ffa500;
 }
-.menu_bar {
+.laptop_nav {
     display: none;
 }
 .btn {
@@ -149,14 +155,15 @@ button.btn.btn-primary.dropdown-toggle {
 
 
 
-.ourtraining_heading {
+.content_ourtraining {
     width: 90%;
     margin: 0px auto;
-    padding: 0px;
+    padding: 30px 0px;
 }
+
 .ourtraining_heading>h1 {
     margin-top: 50px;
-    font-size: 10vw;
+    font-size: 36px;
     color: #ffa500;
     font-weight: 900;
 }
@@ -165,7 +172,13 @@ button.btn.btn-primary.dropdown-toggle {
 }
 .ourtraining_image {
     width: 90%;
-    margin-top: 40px;
+    margin-top: 0px;
+    position: absolute;
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+    line-height: 30px;
+    color: rgba(10, 10, 10, 0.1);
     /* border: 2px solid greenyellow; */
 }
 .ourtraining_quote {
@@ -174,7 +187,7 @@ button.btn.btn-primary.dropdown-toggle {
     padding: 0px;
 }
 .ourtraining_quote>h3 {
-    margin-top: 40px;
+    margin-top: 50px;
     font-size: 17px;
     padding-bottom: 20px;
     line-height: 37px;
@@ -206,7 +219,8 @@ button.btn.btn-primary.dropdown-toggle {
 
 .ourcourses {
     width: 100%;
-    margin: 0px auto;
+    margin: 0px;
+    padding: 0px;
     margin-top: 50px;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -390,7 +404,7 @@ button.btn.btn-primary.dropdown-toggle {
 
 
 
-.startlearning_content {
+.startlearning {
     padding-top: 40px;
     padding-bottom: 40px;
     background: #4bdddd;
@@ -443,13 +457,14 @@ button.btn.btn-primary.dropdown-toggle {
     width: 100%;
     margin: 0px;
     padding: 0px;
-    background: #c0c0c0;
+    background-image: url(../img/demat.jpg);
+    background-position: center;
 }
 .demat_heading {
     margin-left: 5%;
     margin-right: 5%;
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 70px;
 }
 .demat_heading>small {
     font-size: 14px;
@@ -522,6 +537,7 @@ button.btn.btn-primary.dropdown-toggle {
 
 
 .footer {
+    width: 100%;
     margin: 0px;
     padding: 0px;
     background: rgba(27, 56, 81, 1)
@@ -567,4 +583,386 @@ button.btn.btn-primary.dropdown-toggle {
     font-size: 18px;
     margin-top: 40px;
     color: #4bdddd;
+}
+
+
+
+
+/* laptop view css starts from here. */
+/* laptop view css starts from here. */
+/* laptop view css starts from here. */
+/* laptop view css starts from here. */
+/* laptop view css starts from here. */
+/* laptop view css starts from here. */
+/* laptop view css starts from here. */
+/* laptop view css starts from here. */
+/* laptop view css starts from here. */
+
+
+
+
+
+
+
+@media only screen and (min-width: 1055px) {
+
+
+/* THIS PART IS FOR NAV BAR */
+
+
+
+    .header {
+        width: 100%;
+        margin: 0px auto;
+        padding: 0px;
+    }
+    .dropdown {
+        display: none;
+    }
+    .laptop_nav {
+        display: block;
+    }
+    .menu {
+        margin-top: 35px;
+        margin-bottom: 30px;
+        display: flex;
+        font-size: 24px;
+        font-weight: 600;
+    }
+    .menu>li>a {
+        text-decoration: none;
+        color: #ffa500;
+        padding: 0px 12px;
+    }
+    .menu>li>a:hover {
+        text-decoration: none;
+        color: #4bdddd;
+        font-size: 26px;
+        border-bottom: 4px solid #ffa500;
+        padding: 0px 12px;
+        padding-bottom: 5px;
+    }
+    .logo {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .logo img {
+        width: 220px;
+    }
+
+
+
+/* THIS IS FOR MAIN VISUAL SECTION OF THE WEBSITE */
+
+
+    .carousel-caption {
+        top: 20% !important;
+        bottom: 20% !important;
+    }
+    .carousel-caption>h5 {
+        font-size: 130px;
+        font-weight: 900;
+    }
+
+    .carousel-caption>p {
+        font-size: 130px;
+        font-weight: 900;
+    }
+
+    .carousel-caption>a {
+        font-size: 30px;
+    }
+    .carousel-caption>a>span {
+        width: 70px;
+        height: 4px;
+        margin: 5px 0px;
+    }
+    .carousel-caption>a:hover {
+        margin-left: 60px !important;
+    }
+
+
+/* FROM HERE WE WILL WRITE CODE FOR OUR TRAINING FOR LAPTOP VIEW */
+
+
+    .content_ourtraining {
+        width: 100%;
+        margin: 0px auto;
+        padding: 0px;
+    }
+
+    .contents {
+        width: 1055px;
+        margin: 0px auto;
+        padding: 30px 0px;
+    }
+    .laptopsize_for_flex {
+        margin-top: 70px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .ourtraining_heading>h1 {
+        font-size: 70px;
+        margin-top: 0px;
+        font-weight: 800;
+    }
+    .ourtraining_image>h1 {
+        font-size: 50px;
+        font-weight: 900;
+    }
+    .ourtraining_quote>h3 {
+        font-size: 30px;
+        min-width: 300px;
+        margin-top: 0px;
+        line-height: 40px;
+        font-weight: 500;
+    }
+    .ourtraining_para>p {
+        font-size: 22px;
+        min-width: 500px;
+        margin-top: 0px;
+        line-height: 40px;
+        font-weight: 400;
+    }
+
+
+
+
+/* FROM HERE WE ARE GOING TO START OUR COURSES STYLE FOR LAPTOP VIEW */
+
+
+
+    .content_ourcourses {
+        width: 1055px;
+        margin: 0px auto;
+        padding: 0px;
+        padding-bottom: 50px;
+    }
+    .ourcourses_plans {
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    .ourcourses_heading>h1  {
+        font-weight: 800;
+        font-size: 70px;
+        color: #ffa500;
+    }
+
+    .ourcourses_heading>p {
+        padding-top: 40px;
+        font-size: 24px;
+        color: #4bdddd;
+    }
+
+    .plan_gold>small {
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .plan_gold>span {
+        width: 70px;
+        height: 4px;
+    }
+    .plan_gold>h1 {
+        font-size: 35px;
+        font-weight: bold;
+    }
+    .plan_gold>p {
+        color: #ffa500;
+        font-size: 25px;
+        /* font-weight: bold; */
+    }
+    .plan_gold>ul>li {
+        font-size: 20px;
+    }
+
+
+
+/* FROM HERE WE ARE GOING TO START DESIGN  FOR OUR EXCITING PACKAGES */
+
+
+
+    .content_ourpackages {
+        width: 1055px;
+        margin: 0px auto;
+        padding: 0px;
+    }
+    .content_ourpackages>small {
+        font-size: 24px;
+        font-weight: 600;
+    }
+    .content_ourpackages>h2 {
+        font-size: 70px;
+        font-weight: 900;
+    }
+    .ourpackages_plan {
+        display: flex;
+        justify-content: space-between;
+    }
+    .para_part1>h2 {    
+        font-size: 38px;
+    }
+    .para_part1>h4 {
+        margin-top: 25px;
+        font-size: 22px;
+        max-width: 500px;
+    }
+    .para_part1>small {
+        margin-top: 20px;
+        font-size: 18px;
+        max-width: 500px;
+    }
+    .para_part2>h4, .para_part3>h4{
+        margin-top: 15px;
+        max-width: 500px;
+        font-size: 22px;
+    }
+    .para_part2>ul>li {
+        margin-top: 8px;
+        font-size: 20px;
+        max-width: 500px;
+    }
+    .validity>li {
+        font-size: 20px;
+        max-width: 500px;
+        margin-top: 8px;
+    }
+    .para_part3>p {
+        font-size: 20px;
+        margin-top: 8px;
+        max-width: 500px;
+    }
+    .part4 {
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .part4>li>a {
+        font-size: 25px;
+    }
+    .part4>li>a:hover {
+        padding: 16px;
+        background: #5ceeee;
+    }
+    .part4>li {
+        font-size: 28px;        
+    }
+    .part4>li>span {
+        font-size: 18px !important;
+    }
+    .plan_img img {
+        width: 350px;
+        
+    }
+
+
+
+
+/* FROM HERE WE ARE GOING TO WRITE DESIGN CODE FOR START LEARNING WITH US */
+
+
+
+
+
+    .startlearning_content {
+        width: 1055px;
+        margin: 0px auto;
+        padding: 0px;
+    }
+    .startlearning_heading>small {
+        font-size: 24px;
+    }
+    .startlearning_heading>h2 {
+        font-size: 70px;
+    }
+    .startlearning_heading>p {
+        font-size: 35px;
+    }
+    .startlearning_heading>a {
+        font-size: 22px;
+        /* padding-top: 30px; */
+
+    }
+    .startlearning_heading>a>span {
+        width: 70px;
+        height: 4px;
+    }
+    .startlearning_heading>a:hover {
+        color: #ffa500;
+        font-size: 28px;
+    }
+
+
+
+
+
+/* FROM HERE WE ARE GOING  TO DESIGN THE NEXT PART NAMED AS DEMAT ACCOUNT */
+
+
+    .demat_heading {
+        width: 1055px;
+        margin: 0px auto;
+        padding: 60px 0px;
+    }
+
+    .demat_heading>small {
+        font-size: 24px;
+    }
+    .demat_heading>h2>span {
+        font-size: 70px;
+        margin-left: 0px;
+        color: #ffa500 !important;
+    }
+    .demat_heading>h2 {
+        font-size: 70px;
+    }
+    .acc_1>h3>img {
+        width: 250px;
+    }
+    .acc_1>p {
+        font-size: 24px;
+        font-weight: bold;
+    }
+    .acc_1>a>span {
+        width: 70px;
+        height: 4px;
+    }
+    .acc_1>a {
+        font-size: 22px;
+    }
+    .acc_1>a:hover {
+        font-size: 26px;
+        margin-left: 5%;
+        color: #ffa500;
+    }
+
+
+/* FROM HERE WE ARE GOING TO START THE DESIGN SECTION FOR FOOTER PART */
+
+
+
+
+
+    .footer_content>h3>img {
+        width: 350px;
+    }
+
+    .footer_address>ul>li>a {
+        font-size: 25px;
+    }
+    .connect_with_us {
+        font-size: 40px;
+        font-weight: 600;
+    }
+    .socialmedia_links>li>a {
+        font-size: 24px;
+    }
+    .copyright {
+        text-align: center;
+        font-size: 25px;
+    }
+
+
+
 }
